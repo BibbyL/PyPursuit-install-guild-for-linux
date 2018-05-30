@@ -2,6 +2,10 @@ https://www.jetbrains.com/pycharm/download/#section=linux
 licence server : http://im.js.cn:8888
 
 https://github.com/lmjohns3/py-pursuit
+sudo apt-get install python-setuptools python-dev build-essential 
+
+sudo pip install --upgrade pip 
+
 
 sudo apt-get install python-opengl
 
