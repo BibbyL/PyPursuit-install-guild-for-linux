@@ -5,7 +5,7 @@ https://github.com/lmjohns3/py-pursuit
 sudo apt-get install python-setuptools python-dev build-essential 
 
 sudo pip install --upgrade pip 
-sudo pip install numpy
+sudo pip install numpy scipy
 cd py-pursuit-master
 add ,include_dirs=[numpy.get_include()] to setuptools.Extension
 "ext_modules=[setuptools.Extension('lmj.pursuit._correlate', sources=['lmj/pursuit/correlate.c'], include_dirs=[numpy.get_include()])],"
@@ -34,10 +34,10 @@ https://github.com/glumpy/glumpy
 Change version of glumpy to 0.2.1 in pycharm -> setting -> interpreter
 
 
-
 sudo apt-get install python-opengl
 sudo pip install Pillow
 
+pycuda
 ---------------------------------------------------
 
 
